@@ -1,0 +1,21 @@
+﻿body {
+    background: url("https://cdn.pixabay.com/photo/2021/06/08/02/32/monstera-6319467_1280.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1.title {
+    padding: 15px 0;
+    color: rgb(57, 151, 149);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.wrapper {
+    background: rgb(202, 229, 233);
+    border-radius: 10px;
+    box-shadow: 0 25px 70px rgba(54, 34, 34, 0.05);
+    overflow: hidden;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}

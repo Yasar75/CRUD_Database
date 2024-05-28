@@ -1,0 +1,90 @@
+﻿    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      
+      width: 100vw;
+      height: 100vh;
+      font-family: 'Open sans';
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url("https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .wrapper {
+      width: 700px;
+      background: rgb(202, 229, 233);
+      border-radius: 10px;
+      box-shadow: 0 25px 70px rgba(54, 34, 34, 0.05);
+      overflow: hidden;
+      /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    }
+
+    h1.title {
+      padding: 15px 0;
+      margin-left: 25px;
+      font-weight: normal;
+      color: rgb(57, 151, 149);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .form {
+      width: 700px;
+    }
+
+    .myform {
+      background: #F4F5F7;
+      padding: 25px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 25px
+    }
+
+    .myform label {
+      margin-bottom: 15px;
+      font-family: 'Lucida Sans';
+    }
+
+    .myform input {
+      border: 0;
+      outline: 0;
+      height: 50px;
+      background: #FFF;
+      width: 100%;
+      border-radius: 5px;
+      color: #6b7078;
+      font-weight: 700;
+      font-size: 1.0rem;
+      text-indent: 15px;
+      border: 2px solid transparent;
+      transition: border 250ms;
+      font-family: 'Lucida Sans';
+      padding: 5%;
+    }
+
+    .full-width {
+      grid-column: -1 / 1
+    }
+
+    .btn {
+        display: flex;
+        margin-left: 50%;
+        text-align: center !important;
+        margin-top: auto;
+        justify-content: space-evenly;
+    }
+
+    /*.gender {
+      padding-bottom: 5%;
+      margin-top: 1%;
+      /* text-align: center; */
+    
